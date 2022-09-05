@@ -8,7 +8,7 @@
 3. Why are people choosing to move and have their reasons changed over time?
 4. Do certain occupations have more mobility than others?
 
-Guidelines:
+📋 **Guidelines:**
 
 - Must use provided datasets
 - May use additional datasets if they help your analysis
