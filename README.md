@@ -21,4 +21,4 @@ Guidelines:
 |-----------|-------------|
 |Jupyter notebook (avc_dashboard_EDA.ipynb)| This is the file where you will find the python code for my data analysis.|
 |excel_functions.py| This file contains a python function that I created to limit repeated code. Opens the excel files that are locally on my computer, puts them into a dataframe, performs some cleaning, then appends to a list. |
-|Excel files (Data)| Files labeled <font color="cyan">Table 13</font> are the files for the flow patterns. Files labeled <font color="orange">Table 18</font> are the files for the reasons. <font color="pink">The others</font> are for the CPI data, and/or perhaps others I looked into.|
+|Excel files (Data)| Files labeled **Table 13** are the files for the flow patterns. Files labeled **Table 18** are the files for the reasons. < style="color:pink">The others are for the CPI data, and/or perhaps others I looked into.|
