@@ -9,7 +9,7 @@ import numpy as np
 import os
 
 
-# In[3]:
+# In[2]:
 
 
 def get_files_and_make_dfs():
@@ -43,13 +43,15 @@ def get_files_and_make_dfs():
         df_zs.index = df_zs.index.map(lambda x: x.rstrip('/3'))    # for the rsn dfs
         df_zs.index = df_zs.index.map(lambda x: x.rstrip('4'))    # for the rsn dfs
         df_list.append(df_zs)   # append each data frame to list
+    
+    return df_list
         
     # Loop through list of dataframes and create a dataframe for each element in the list
-    for df in range(len(df_list)):
-        if '13' in file_path:
-            globals()[f"fdf_{df}"] = df_list[df]
-        else:
-            globals()[f"rdf_{df}"] = df_list[df]
+#     for df in range(len(df_list)):
+#         if '13' in file_path:
+#             globals()[f"fdf_{df}"] = df_list[df]
+#         else:
+#             globals()[f"rdf_{df}"] = df_list[df]
 
 
 # In[ ]:
