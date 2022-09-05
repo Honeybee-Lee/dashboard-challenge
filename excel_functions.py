@@ -8,10 +8,6 @@ import pandas as pd
 import numpy as np
 import os
 
-
-# In[2]:
-
-
 def get_files_and_make_dfs():
     '''
     This function gets the users file path, creates a list of data frames and performs operations,
@@ -45,17 +41,6 @@ def get_files_and_make_dfs():
         df_list.append(df_zs)   # append each data frame to list
     
     return df_list
-        
-    # Loop through list of dataframes and create a dataframe for each element in the list
-#     for df in range(len(df_list)):
-#         if '13' in file_path:
-#             globals()[f"fdf_{df}"] = df_list[df]
-#         else:
-#             globals()[f"rdf_{df}"] = df_list[df]
-
-
-# In[ ]:
-
 
 
 
