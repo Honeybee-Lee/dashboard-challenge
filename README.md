@@ -2,7 +2,7 @@
 *Dashboard challenge that I am working on through my work for a Community of Practice.*<br>
 **Problem statement:** The last couple of years have caused major changes in how we conduct work. Remote work on the rise and rising house prices may have resulted in some of the workforce moving to new regions of the country. I would like a tool to help me make a more informed decision on the impacts as change in the hybrid work environment has on my team.
 
-:question:**Questions:**
+:question: **Questions:**
 1. Did we see a trend in migration from one region to another due to the pandemic?
 2. Does the cost of living factor into the migration trends? Please find additonal data sets about cost of living to pull into your dashboard.
 3. Why are people choosing to move and have their reasons changed over time?
